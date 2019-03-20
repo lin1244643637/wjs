@@ -1,0 +1,45 @@
+@import 'base.css';
+@import 'adapter.css';
+@import 'fonts.css';
+.lay_out .navTop {
+  width: 100%;
+  display: block;
+}
+.lay_out .navTop img {
+  width: 100%;
+  display: block;
+}
+.lay_out .items {
+  padding: 0 0.75rem;
+}
+.lay_out .items .title {
+  padding: 0.625rem 0;
+  overflow: hidden;
+  font-size: 0.875em;
+}
+.lay_out .items .title h4 {
+  float: left;
+  font-weight: normal;
+  font-family: '新宋体';
+}
+.lay_out .items .title span {
+  float: right;
+  color: #888;
+}
+.lay_out .items .item {
+  text-align: center;
+  height: 6.8125rem;
+  border: 0.09375rem dashed #dedede;
+  background-color: #fff;
+  padding-top: 1.125rem;
+  box-sizing: border-box;
+}
+.lay_out .items .item .icon-add {
+  font-size: 3.25rem;
+  color: #666;
+}
+.lay_out .items .item .icon-add span {
+  margin-top: 0.625rem;
+  display: block;
+  font-size: 0.625rem;
+}
